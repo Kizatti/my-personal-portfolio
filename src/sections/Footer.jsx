@@ -8,21 +8,21 @@ function Footer() {
       <div className="min-h-[100px] flex flex-col justify-center gap-6 text-center text-lg text-gray-300 font-mono mb-10 ">
         <div className="flex gap-10 p-4 justify-center text-white ">
            <a
-            href="https://twitter.com/yourprofile"
+            href="https://github.com/Kizatti"
             className="border p-2 text-2xl rounded hover:-translate-y-2 transition-all bg-gray-800 text-white "
             target="_blank"
           >
             <FaSquareGithub />
           </a>
           <a
-            href="https://twitter.com/yourprofile"
+            href="https://www.linkedin.com/in/adebiyi-adebayo-0ab332293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             className="border p-2 text-2xl rounded hover:-translate-y-2 transition-all bg-blue-700 text-white "
             target="_blank"
           >
             <SlSocialLinkedin />
           </a>
           <a
-            href="https://twitter.com/yourprofile"
+            href="https://wa.me/+2349038228299"
             className="border p-2 text-2xl rounded hover:-translate-y-2 transition-all bg-black text-white "
             target="_blank"
           >
