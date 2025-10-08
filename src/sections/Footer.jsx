@@ -15,7 +15,7 @@ function Footer() {
             <FaSquareGithub />
           </a>
           <a
-            href="https://www.linkedin.com/in/adebiyi-adebayo-0ab332293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            href="https://www.linkedin.com/in/adebiyi-adebayo-0ab332293"
             className="border p-2 text-2xl rounded hover:-translate-y-2 transition-all bg-blue-700 text-white "
             target="_blank"
           >

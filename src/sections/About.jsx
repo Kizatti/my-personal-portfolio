@@ -57,30 +57,31 @@ function About() {
                 📚 Education
               </h3>
               <ul className="pl-5 list-disc list-inside text-lg text-gray-300">
-                <li>
+                
                   <strong>
                     {" "}
-                    <em>B.Sc in Computer Science </em>{" "}
+                    <em>♦ B.Sc in Computer Science </em>{" "}
                   </strong> <br />
                   Kwara State University, Malete (2021-2024). <br />
-                  Second Class Upper Division.
-                </li>
-                <li>
+                  Second Class Upper Division. <br />
+              
+                <br />
                   <strong>
                     {" "}
-                    <em className="whitespace-nowrap">CPN-licensed Professional </em>{" "}
+                    <em className="whitespace-nowrap">♦ CPN-licensed Professional </em>{" "}
                   </strong> <br />
                   Chartered Information Technology Practitioner[C.I.T.P]. <br />
                   (2019-2022).
-                </li>
-                <li>
+                  <br />
+              
+              <br />
                   <strong>
                     {" "}
-                    <em>National Diploma in Computer Science </em>{" "}
+                    <em>♦ National Diploma in Computer Science </em>{" "}
                   </strong> <br />
                   Federal Polytechnic, Ede (2016-2018). <br />
                   Upper Credit.
-                </li>
+              
               </ul>
             </div>
           </div>
