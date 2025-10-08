@@ -9,6 +9,7 @@ import RevealOnScroll from "./Ui/RevealOnScroll";
 import Projects from "./sections/Projects";
 import { Contact } from "./sections/Contact";
 import Footer from "./sections/Footer";
+import BackToTop from "./Ui/BackToTop";
 
 function App() {
  const [isLoading, setIsLoading] = useState(false);
@@ -26,6 +27,7 @@ function App() {
       <Projects />
       <Contact />
       <Footer />
+  <BackToTop />
       <RevealOnScroll /> 
       </>
   );

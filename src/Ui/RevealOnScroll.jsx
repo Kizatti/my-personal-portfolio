@@ -4,21 +4,33 @@ function RevealOnScroll({ children }) {
   const ref = useRef(null);
 
   useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          ref.current.classList.add("visible");
-        }
-      },
-      { threshold: 0.2, rootMargin: "0px 0px -50px 0px" }
-    );
+    const node = ref.current;
+    if (!node) return;
 
-    if (ref.current) {
-      observer.observe(ref.current);
+    // Fallback: if IntersectionObserver isn't supported, reveal immediately
+    if (typeof IntersectionObserver === "undefined") {
+      node.classList.add("visible");
+      return;
     }
 
-    return () => observer.disconnect();
-  });
+    const observer = new IntersectionObserver(
+      ([entry], obs) => {
+        if (entry.isIntersecting) {
+          node.classList.add("visible");
+          // stop observing once visible
+          obs.unobserve(node);
+        }
+      },
+      { threshold: 0.15, rootMargin: "0px 0px -10% 0px" }
+    );
+
+    observer.observe(node);
+
+    return () => {
+      observer.unobserve(node);
+      observer.disconnect();
+    };
+  }, []);
 
   return (
     <div ref={ref} className="reveal">

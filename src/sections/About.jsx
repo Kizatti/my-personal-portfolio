@@ -60,7 +60,7 @@ function About() {
                 
                   <strong>
                     {" "}
-                    <em>♦ B.Sc in Computer Science </em>{" "}
+                    <em className="whitespace-nowrap">♦ B.Sc in Computer Science </em>{" "}
                   </strong> <br />
                   Kwara State University, Malete (2021-2024). <br />
                   Second Class Upper Division. <br />
@@ -77,7 +77,7 @@ function About() {
               <br />
                   <strong>
                     {" "}
-                    <em>♦ National Diploma in Computer Science </em>{" "}
+                    <em className="whitespace-nowrap">♦ National Diploma, Computer Science </em>{" "}
                   </strong> <br />
                   Federal Polytechnic, Ede (2016-2018). <br />
                   Upper Credit.
