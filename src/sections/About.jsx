@@ -79,7 +79,7 @@ function About() {
               <br />
                   <strong>
                     {" "}
-                    <em className="whitespace-nowrap">♦ National Diploma in Computer Science </em>{" "}
+                    <em className="whitespace-nowrap">♦ OND in Computer Science </em>{" "}
                   </strong> <br />
                   Federal Polytechnic, Ede. <br />
                   Upper Credit. <br />
