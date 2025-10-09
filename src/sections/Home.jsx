@@ -29,7 +29,7 @@ function Home() {
         </h1>
         <p className="text-gray-300 text-base mb-8 max-w-lg mx-auto">
           I transforms ideas into modern, responsive, and user-friendly web experiences. With expertise in React.js, Tailwind CSS, and TypeScript, 
-          I focus on building interfaces that are not only visually appealing but also deliver real value to users and businesses alike.
+          I focus on building interfaces that are not only visually appealing but also deliver real value to users and businesses alike.
         </p>
         <div className="flex justify-center items-center space-x-4">
           <a
