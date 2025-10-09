@@ -111,6 +111,7 @@ function About() {
               </li>
                <li> Task Management Tool - Designed with React.js, Node.js, 
                 and MongoDB for efficient task tracking. </li>
+                <li> And so many other beautiful projects... </li>
              </ul>
           </div>
         </div>
