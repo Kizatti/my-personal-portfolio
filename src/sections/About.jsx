@@ -32,9 +32,10 @@ function About() {
             About Me
           </h2>
           <div className="p-8 mb-6 rounded-xl border-white/10 border-2 hover:-translate-y-1 transition-all ">
-            <p className="text-gray-300 mb-5 text-xl">
-              Passionate developer with expertise in building scalable web
-              applications and creating innovative solutions.
+            <p className="text-gray-300 mb-5 text-base">
+             I am a passionate Software Engineer and a Full-Stack Developer specializing in frontend engineering with 5+ years of experience and 30+ completed projects. 
+             I specialize in building clean, responsive, and user-friendly web applications with modern tools like React.js, Tailwind CSS, and TypeScript, 
+             delivering solutions that meet both user needs and business goals.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -56,14 +57,15 @@ function About() {
               <h3 className="text-2xl text-center font-bold mb-8">
                 📚 Education
               </h3>
-              <ul className="pl-5 list-disc list-inside text-lg text-gray-300">
+              <ul className="pl-5 list-disc list-inside text-base text-gray-300">
                 
                   <strong>
                     {" "}
                     <em className="whitespace-nowrap">♦ B.Sc in Computer Science </em>{" "}
                   </strong> <br />
-                  Kwara State University, Malete (2021-2024). <br />
+                  Kwara State University, Malete. <br />
                   Second Class Upper Division. <br />
+                  (2021-2024) <br />
               
                 <br />
                   <strong>
@@ -77,10 +79,11 @@ function About() {
               <br />
                   <strong>
                     {" "}
-                    <em className="whitespace-nowrap">♦ National Diploma, Computer Science </em>{" "}
+                    <em className="whitespace-nowrap">♦ National Diploma in Computer Science </em>{" "}
                   </strong> <br />
-                  Federal Polytechnic, Ede (2016-2018). <br />
-                  Upper Credit.
+                  Federal Polytechnic, Ede. <br />
+                  Upper Credit. <br />
+                  (2016-2018)
               
               </ul>
             </div>
@@ -89,24 +92,26 @@ function About() {
             <h3 className="text-2xl text-center font-bold mb-8">
               💻 Work Experience
             </h3>
-            <ul className="pl-5 list-disc list-inside text-lg text-gray-300">
+            <ul className="pl-5 list-disc list-inside text-base text-gray-300">
               <li>
                 <strong className="text-blue-400">
                   <em>Frontend Developer (Freelance / Contract)</em>
-                </strong>📍 </li>
-                <li> Remote | Jan 2022 - Present </li>
+                </strong> </li>
+                <li> Remote | Jan 2020 - Present </li>
                 <li> TaTech Hub | Feb 2024 - Nov 2024 </li>
                 <li> Built responsive and accessible websites using React.js,
                 Next.js, and Tailwind CSS</li>
-                <li> Developed dynamic user
-                interfaces with JavaScript (ES6+), HTML, and CSS. </li>
+                 <li>
+               Real Estate Listing Site - Created with Angular, TypeScript, and Firebase, 
+               featuring property search and filters.</li>
+                <li> 3D Gaming Web App - Built with React.js, Tailwind CSS, 
+                  and Spline for immersive 3D experiences. </li>
                 <li> Integrated RESTful APIs and optimized performance for faster
                 load times.
               </li>
-              <li>
-                CS50 , Data Structures, Web Development, Cloud Computing...
-              </li>
-            </ul>
+               <li> Task Management Tool - Designed with React.js, Node.js, 
+                and MongoDB for efficient task tracking. </li>
+             </ul>
           </div>
         </div>
       </RevealOnScroll>

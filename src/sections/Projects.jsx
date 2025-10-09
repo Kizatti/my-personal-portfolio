@@ -15,8 +15,8 @@ function Projects() {
       brief:
         "Scalable Dashboard App with CRUD operations manages all the bookings, users, guests and services.",
       tech: ["React", "TailwindCSS", "Vercel"],
-      link: "https://github.com/ISHAQ98/dashboard-app",
-      demo: "https://github.com/ISHAQ98/dashboard-app",
+      link: "https://github.com/Kizatti",
+      demo: "http://kiana-signature.vercel.app",
     },
     {
       image: ecommerce,
@@ -24,8 +24,8 @@ function Projects() {
       brief:
         "Scalable Dashboard App with CRUD operations manages all the bookings, users, guests and services.",
       tech: ["Vue", "Bootstrap", "Netlify"],
-      link: "https://github.com/ISHAQ98/ecommerce-app",
-      demo: "https://github.com/ISHAQ98/ecommerce-app",
+      link: "https://github.com/Kizatti",
+      demo: "http://mytatechproject.netlify.app",
     },
     {
       image: food,
@@ -33,8 +33,8 @@ function Projects() {
       brief:
         "Scalable Dashboard App with CRUD operations manages all the bookings, users, guests and services.",
       tech: ["Angular", "CSS", "Firebase"],
-      link: "https://github.com/ISHAQ98/food-app",
-      demo: "https://github.com/ISHAQ98/food-app",
+      link: "https://github.com/Kizatti",
+      demo: "http://kiana-signature.vercel.app",
     },
     {
       image: travel,
@@ -42,8 +42,8 @@ function Projects() {
       brief:
         "Scalable Dashboard App with CRUD operations manages all the bookings, users, guests and services.",
       tech: ["Next.js", "TailwindCSS", "Vercel"],
-      link: "https://github.com/ISHAQ98/travel-app",
-      demo: "https://github.com/ISHAQ98/travel-app",
+      link: "https://github.com/Kizatti",
+      demo: "http://mytatechproject.netlify.app",
     },
     {
       image: dashboard,
@@ -51,8 +51,8 @@ function Projects() {
       brief:
         "Personal portfolio website showcasing projects, blogs and contact information with responsive design.",
       tech: ["React", "TailwindCSS", "Vercel"],
-      link: "https://github.com/ISHAQ98/portfolio-site",
-      demo: "https://github.com/ISHAQ98/portfolio-site",
+      link: "https://github.com/Kizatti",
+      demo: "http://kiana-signature.vercel.app",
     },
     {
       image: ecommerce,
@@ -60,8 +60,8 @@ function Projects() {
       brief:
         "A task management app with drag-and-drop, filtering, and persistent storage for productivity.",
       tech: ["React", "LocalStorage", "CSS"],
-      link: "https://github.com/ISHAQ98/task-manager",
-      demo: "https://github.com/ISHAQ98/task-manager",
+      link: "https://github.com/Kizatti",
+      demo: "http://mytatechproject.netlify.app",
     },
   ]);
   return (
@@ -93,27 +93,29 @@ function Projects() {
                     </span>
                   ))}
                   <div className="flex flex-col text-center my-3 py-2 justify-center gap-2 border-2 border-white/10 hover:border-blue-500/30 hover:shadow-[9_2px_8px_rgba(59,130,22.46,0.2)] rounded-xl ">
-                    <a
-                      href={project.demo || project.link}
-                      className="w-full text-sm text-blue-400 hover:text-white font-semibold inline-flex items-center justify-center gap-2"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <FiExternalLink />
-                      <span>Live Demo</span>
-                    </a>
                     <div className="px-2 py-2">
                       <img src={project.image} alt={`${project.name} Image`} className="w-full h-auto rounded-md" />
                     </div>
-                    <a
-                      href={project.link}
-                      className="w-full text-sm text-blue-400 hover:text-white font-semibold inline-flex items-center justify-center gap-2"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <FaGithub />
-                      <span>Github Code</span>
-                    </a>
+                    <div className="w-full flex items-center justify-center gap-10 px-0 sm:px-4">
+                      <a
+                        href={project.demo || project.link}
+                        className="text-sm text-blue-400 hover:text-white font-semibold inline-flex items-center gap-1 mr-8"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <FiExternalLink />
+                        <span>Live</span>
+                      </a>
+                      <a
+                        href={project.link}
+                        className="text-sm text-blue-400 hover:text-white font-semibold inline-flex items-center gap-1"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <FaGithub />
+                        <span>Github Code</span>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
