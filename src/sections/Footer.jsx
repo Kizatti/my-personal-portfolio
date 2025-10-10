@@ -29,7 +29,7 @@ function Footer() {
             <FaWhatsapp />
           </a>
         </div>
-        <p>@ Adebiyi Kabir. All rights reserved. </p>
+        <p>&copy; Adebiyi Kabir. All rights reserved. </p>
       </div>
     </footer>
   );
