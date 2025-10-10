@@ -14,10 +14,9 @@ function About() {
     "TailwindCSS",
     "Angular",
     "Spline",
-    "MongoDB",
+    "Python",
     "Vercel",
     "Netlify",
-    "AWS",
     "Copilot",
     "Gemini",
   ];
