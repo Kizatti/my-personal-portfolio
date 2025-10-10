@@ -33,7 +33,7 @@ function About() {
           </h2>
           <div className="p-8 mb-6 rounded-xl border-white/10 border-2 hover:-translate-y-1 transition-all ">
             <p className="text-gray-300 mb-5 text-base">
-             I am a passionate Software Engineer and a Full-Stack Developer specializing in frontend engineering with 5+ years of experience and 30+ completed projects. 
+             I am a passionate Software Engineer and a Full-Stack Developer specializing in frontend engineering with 5+ years of experience and 40+ completed projects. 
              I specialize in building clean, responsive, and user-friendly web applications with modern tools like React.js, Tailwind CSS, and TypeScript, 
              delivering solutions that meet both user needs and business goals.
             </p>
