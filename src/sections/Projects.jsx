@@ -1,8 +1,10 @@
 import { useState } from "react";
+import gaming from "../assets/gaming-app.jpg";
+import quiz from "../assets/quiz-app.jpg";
+import movies from "../assets/movie-app.jpg";
+import slides from "../assets/slides.jpg";
 import dashboard from "../assets/dashboard-app.webp";
 import ecommerce from "../assets/e-commerce-app.png";
-import food from "../assets/food-app.jpg";
-import travel from "../assets/travel-app.jpg";
 import RevealOnScroll from "../Ui/RevealOnScroll";
 import { FiExternalLink } from "react-icons/fi";
 import { FaGithub } from "react-icons/fa";
@@ -10,35 +12,35 @@ import { FaGithub } from "react-icons/fa";
 function Projects() {
   const [projects] = useState([
     {
-      image: dashboard,
-      name: "Dashboard App",
+      image: gaming,
+      name: "3D Gaming App",
       brief:
         "Scalable Dashboard App with CRUD operations manages all the bookings, users, guests and services.",
       tech: ["React", "TailwindCSS", "Vercel"],
-      link: "https://github.com/Kizatti",
-      demo: "http://kiana-signature.vercel.app",
+      link: "https://github.com/Kizatti/3D-shooter-game",
+      demo: "http://kizatti-shooter-game.vercel.app",
     },
     {
-      image: ecommerce,
-      name: "E-Commerce App",
+      image: quiz,
+      name: "Quiz App",
       brief:
         "Scalable Dashboard App with CRUD operations manages all the bookings, users, guests and services.",
       tech: ["Vue", "Bootstrap", "Netlify"],
-      link: "https://github.com/Kizatti",
-      demo: "http://mytatechproject.netlify.app",
+      link: "https://github.com/Kizatti/quiz-app",
+      demo: "http://kizatti-quiz-app.netlify.app",
     },
     {
-      image: food,
-      name: "Food App",
+      image: slides,
+      name: "E-commerce App",
       brief:
         "Scalable Dashboard App with CRUD operations manages all the bookings, users, guests and services.",
       tech: ["Angular", "CSS", "Firebase"],
-      link: "https://github.com/Kizatti",
+      link: "https://github.com/Kizatti/kiana-signature",
       demo: "http://kiana-signature.vercel.app",
     },
     {
-      image: travel,
-      name: "Travel App",
+     image: dashboard,
+      name: "Task Manager",
       brief:
         "Scalable Dashboard App with CRUD operations manages all the bookings, users, guests and services.",
       tech: ["Next.js", "TailwindCSS", "Vercel"],
@@ -46,7 +48,7 @@ function Projects() {
       demo: "http://mytatechproject.netlify.app",
     },
     {
-      image: dashboard,
+      image: ecommerce,
       name: "Portfolio Site",
       brief:
         "Personal portfolio website showcasing projects, blogs and contact information with responsive design.",
@@ -55,8 +57,8 @@ function Projects() {
       demo: "http://kiana-signature.vercel.app",
     },
     {
-      image: ecommerce,
-      name: "Task Manager",
+      image: movies,
+      name: "Movie App",
       brief:
         "A task management app with drag-and-drop, filtering, and persistent storage for productivity.",
       tech: ["React", "LocalStorage", "CSS"],
