@@ -3,8 +3,8 @@ import gaming from "../assets/gaming-app.jpg";
 import quiz from "../assets/quiz-app.jpg";
 import movies from "../assets/movie-app.jpg";
 import slides from "../assets/slides.jpg";
-import dashboard from "../assets/dashboard-app.webp";
-import ecommerce from "../assets/e-commerce-app.png";
+import notepad from "../assets/notepad-app.jpg";
+import weather from "../assets/weather-app.jpg";
 import RevealOnScroll from "../Ui/RevealOnScroll";
 import { FiExternalLink } from "react-icons/fi";
 import { FaGithub } from "react-icons/fa";
@@ -39,8 +39,8 @@ function Projects() {
       demo: "http://kiana-signature.vercel.app",
     },
     {
-     image: dashboard,
-      name: "Task Manager",
+     image: notepad,
+      name: "Notepad App",
       brief:
         "Scalable Dashboard App with CRUD operations manages all the bookings, users, guests and services.",
       tech: ["Next.js", "TailwindCSS", "Vercel"],
@@ -48,8 +48,8 @@ function Projects() {
       demo: "http://mytatechproject.netlify.app",
     },
     {
-      image: ecommerce,
-      name: "Portfolio Site",
+      image: weather,
+      name: "Weather App",
       brief:
         "Personal portfolio website showcasing projects, blogs and contact information with responsive design.",
       tech: ["React", "TailwindCSS", "Vercel"],

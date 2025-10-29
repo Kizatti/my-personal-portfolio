@@ -6,8 +6,8 @@ function About() {
     "Javascript",
     "TypeScript ",
     "React.js",
-    "Git/Github",
-    "Redux",
+    "Spline",
+    "ShadCN UI",
     "Vue Js",
     "Next.js",
     "Boostrap",
@@ -15,11 +15,12 @@ function About() {
     "Angular",
     "Node Js",
     "Python",
-    "Spline",
+    "Flask",
     "Vercel",
     "Netlify",
     "Copilot",
     "Gemini",
+    "Git/Github",
   ];
   return (
     <section
