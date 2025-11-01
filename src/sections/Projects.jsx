@@ -3,7 +3,7 @@ import gaming from "../assets/gaming-app.jpg";
 import quiz from "../assets/quiz-app.jpg";
 import movies from "../assets/movie-app.jpg";
 import slides from "../assets/slides.jpg";
-import notepad from "../assets/notepad-app.jpg";
+import url from "../assets/url-app.jpg";
 import weather from "../assets/weather-app.jpg";
 import RevealOnScroll from "../Ui/RevealOnScroll";
 import { FiExternalLink } from "react-icons/fi";
@@ -15,8 +15,8 @@ function Projects() {
       image: gaming,
       name: "3D Gaming App",
       brief:
-        "Scalable Dashboard App with CRUD operations manages all the bookings, users, guests and services.",
-      tech: ["React", "TailwindCSS", "Vercel"],
+        "I built an interactive 3D browser game using Three.js, showcasing realistic graphics and smooth user controls, best viewed in a landscape mode.",
+      tech: ["Three.js", "Javascript", "Spline"],
       link: "https://github.com/Kizatti/3D-shooter-game",
       demo: "http://kizatti-shooter-game.vercel.app",
     },
@@ -24,8 +24,8 @@ function Projects() {
       image: quiz,
       name: "Quiz App",
       brief:
-        "Scalable Dashboard App with CRUD operations manages all the bookings, users, guests and services.",
-      tech: ["Vue", "Bootstrap", "Netlify"],
+        "I created a responsive quiz app with React featuring timers, score tracking, and category-based questions.",
+      tech: ["React", "Typescript", "API"],
       link: "https://github.com/Kizatti/quiz-app",
       demo: "http://kizatti-quiz-app.netlify.app",
     },
@@ -33,37 +33,37 @@ function Projects() {
       image: slides,
       name: "E-commerce App",
       brief:
-        "Scalable Dashboard App with CRUD operations manages all the bookings, users, guests and services.",
-      tech: ["Angular", "CSS", "Firebase"],
+        "I developed a modern e-commerce site using Javascript and CSS with product listings, modals, and amazing scrolling effects.",
+      tech: ["Html", "CSS", "JavaScript"],
       link: "https://github.com/Kizatti/kiana-signature",
       demo: "http://kiana-signature.vercel.app",
     },
     {
-     image: notepad,
-      name: "Notepad App",
+     image: url,
+      name: "URL Shortener",
       brief:
-        "Scalable Dashboard App with CRUD operations manages all the bookings, users, guests and services.",
-      tech: ["Next.js", "TailwindCSS", "Vercel"],
-      link: "https://github.com/Kizatti",
-      demo: "http://mytatechproject.netlify.app",
+        "I built a URL shortener with Node.js and MongoDB featuring analytics and link management.",
+      tech: ["Next.js", "Node.js", "MongoDB"],
+      link: "https://github.com/Kizatti/react-url-shortener",
+      demo: "https://kaybee-url-shortener.vercel.app",
     },
     {
       image: weather,
       name: "Weather App",
       brief:
-        "Personal portfolio website showcasing projects, blogs and contact information with responsive design.",
-      tech: ["React", "TailwindCSS", "Vercel"],
-      link: "https://github.com/Kizatti",
-      demo: "http://kiana-signature.vercel.app",
+        "I designed a weather app using the OpenWeather API to display real-time forecasts and location-based data.",
+      tech: ["React", "Typescipt", "ShadCN"],
+      link: "https://github.com/Kizatti/climate",
+      demo: "https://kay-weather-app.netlify.app",
     },
     {
       image: movies,
       name: "Movie App",
       brief:
-        "A task management app with drag-and-drop, filtering, and persistent storage for productivity.",
-      tech: ["React", "LocalStorage", "CSS"],
-      link: "https://github.com/Kizatti",
-      demo: "http://mytatechproject.netlify.app",
+        "I created a movie discovery app using TMDB API with search, filters, and favorites features.",
+      tech: ["React", "TailwindCSS", "API"],
+      link: "https://github.com/Kizatti/react-movie-app",
+      demo: "https://kizatti-movie-app.netlify.app",
     },
   ]);
   return (
